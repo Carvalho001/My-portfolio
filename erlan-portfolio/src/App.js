@@ -1,11 +1,16 @@
 import React from 'react';
-import {TheFooter} from '../src/Components/Footer/Footer';
+import { Footer } from '../src/Components/FooterComponent/Footer';
+import { Header } from '../src/Components/HeaderComponent/Header';
 
 function App() {
   return (
     <div>
-      <TheFooter>
-      </TheFooter>
+      <Header>
+      </Header>
+      
+      <Footer>
+      </Footer>
+
     </div>
   );
 }

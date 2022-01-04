@@ -15,7 +15,7 @@ export function Footer() {
                 </FooterTitle>
                 <Contact>
                     <p>Aberto para oportunidades que tragam amadurecimento para minha jornada pessoal e <br /> profissional buscando sempre atuar com criatividade em busca dos melhores resultados.</p><br/>
-                    <p>E-mail para contato: erlangelidson@hotmail.com  </p> <p>Celular:(71) 98275-9119</p>
+                    <p>E-mail para contato: erlangleidson@hotmail.com  </p> <p>Celular:(71) 98275-9119</p>
                 </Contact>
                 <Icons>
                     <Icon1 src={linkedin} alt={'Imagem do linkedin'}></Icon1>

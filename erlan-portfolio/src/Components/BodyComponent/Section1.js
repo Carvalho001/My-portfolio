@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-export function Serction1 (){
+export function Section1 (){
     return(
         <div>
             

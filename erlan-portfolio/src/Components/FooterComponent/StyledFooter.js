@@ -36,7 +36,7 @@ p{
 export const Icons = styled.div`
 display:flex;
 justify-content:center;
-margin-top:5vh;
+margin-top:3vh;
 `
 export const Icon1 = styled.img`margin:0 1.70vw 2vh 1.70vw;`
 export const Icon2 = styled.img`margin:0 1.70vw 2vh 1.70vw;`

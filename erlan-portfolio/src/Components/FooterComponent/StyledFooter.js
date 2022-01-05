@@ -5,8 +5,8 @@ display:flex;
 flex-direction:column;
 align-items:flex-end;
 justify-content:flex-end;
-margin-top:100%;
-width:100vw;`
+width:100vw;
+margin-top:10vh;`
 
 export const MainFooter = styled.div`
  width: 100vw;
@@ -38,10 +38,10 @@ display:flex;
 justify-content:center;
 margin-top:3vh;
 `
-export const Icon1 = styled.img`margin:0 1.70vw 2vh 1.70vw;`
-export const Icon2 = styled.img`margin:0 1.70vw 2vh 1.70vw;`
-export const Icon3 = styled.img`margin:0 1.70vw 2vh 1.70vw;`
-export const Icon4 = styled.img`margin:0 1.70vw 2vh 1.70vw;`
+export const Icon1 = styled.img`margin:0 1.70vw 2vh 1.70vw;&:hover{height:6vh; background-color:#0e76a8; border-radius:10px;border-color:black;};`
+export const Icon2 = styled.img`margin:0 1.70vw 2vh 1.70vw;&:hover{height:6vh; background-color:#25D366; border-radius:10px;border-color:black;};`
+export const Icon3 = styled.img`margin:0 1.70vw 2vh 1.70vw;&:hover{height:6vh; background-color:#171515; border-radius:10px;border-color:black;};`
+export const Icon4 = styled.img`margin:0 1.70vw 2vh 1.70vw;&:hover{height:6vh; background-color:#E1306C; border-radius:10px;border-color:black;};`
 
 export const SecundaryFooter = styled.div`  
 width: 100vw;

@@ -18,11 +18,11 @@ export function Footer() {
                     <p>E-mail para contato: erlangleidson@hotmail.com  </p> <p>Celular:(71) 98275-9119</p>
                 </Contact>
                 <Icons>
-                    <Icon1 src={linkedin} alt={'Imagem do linkedin'}></Icon1>
-                    <Icon2 src={whatsapp} alt={'Imagem do whatsapp'}></Icon2>
-                    <Icon3 src={github} alt={'Imagem do github'}></Icon3>
-                    <Icon4 src={insta} alt={'Imagem do instagram'}></Icon4>
-                </Icons>
+                        <a href={'https://www.linkedin.com/in/erlan-carvalho-436519210/'} rel={"noreferrer"}  target={'_blank'}><Icon1 src={linkedin} alt={'Imagem do linkedin'}></Icon1></a>
+                        <a href={'tel:+5571982759119'} rel={"noreferrer"} target={'_blank'}><Icon2 src={whatsapp} alt={'Imagem do whatsapp'}></Icon2></a>
+                       <a href={'https://github.com/Carvalho001'} rel={"noreferrer"} target={'_blank'}><Icon3 src={github} alt={'Imagem do github'}></Icon3></a>
+                        <a href={'https://www.instagram.com/erlan_carvalho/'} rel={"noreferrer"} target={'_blank'}><Icon4 src={insta} alt={'Imagem do instagram'}></Icon4></a>
+                    </Icons>
             </MainFooter>
             <SecundaryFooter>
                 <p>© 2020 Erlan</p>

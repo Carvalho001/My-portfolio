@@ -3,7 +3,7 @@ import headerImage from '../../assets/headerImage.png';
 
 export const MainHeader = styled.div`
   width: 100vw;
-  height: 65vh;
+  height: 100vh;
   color:green;
   background-size:350vh;
   background-image:url(${headerImage});  
@@ -25,17 +25,34 @@ flex-direction:row;
 ;`
 
 export const MenuItem1 = styled.p`
-padding-right:1.70vw;`
+padding-right:1.70vw;
+a{
+  color: #FFFFFF;
+  text-decoration:none;
+};`
 export const MenuItem2 = styled.p`
-padding-right:1.70vw ;`
+padding-right:1.70vw ;
+color:#4eaccf;
+a{
+  color: #FFFFFF;
+
+  text-decoration:none;
+};`
 export const MenuItem3 = styled.p`
-`
+    color: #FFFFFF;
+
+color:#4eaccf;
+a{
+  color: #FFFFFF;
+
+  text-decoration:none;
+};`
 
 export const IconsAndIntroduction = styled.div`
 display:grid;
 grid-template-columns:1fr 3.75fr;
 justify-content:center;
-padding-top:2.65%;
+padding-top:13%;
 justify-items:left;
 `
 export const Icons = styled.div`
@@ -44,10 +61,10 @@ flex-direction:column;
 align-items:start;
 `
 
-export const Icon1 = styled.img`margin:0.55vh 1.35vw 2.75vh 2.93vw; `
-export const Icon2 = styled.img`margin:0.55vh 1.35vw 2.75vh 2.93vw; `
-export const Icon3 = styled.img`margin:0.55vh 1.35vw 2.75vh 2.93vw; `
-export const Icon4 = styled.img`margin:0.55vh 1.35vw 2.75vh 2.93vw; `
+export const Icon1 = styled.img`margin:0.55vh 1.35vw 2.75vh 2.93vw; &:hover{height:6vh; background-color:#0e76a8; border-radius:10px;border-color:black;};`
+export const Icon2 = styled.img`margin:0.55vh 1.35vw 2.75vh 2.93vw; &:hover{height:6vh; background-color:#25D366; border-radius:10px;border-color:black;};`
+export const Icon3 = styled.img`margin:0.55vh 1.35vw 2.75vh 2.93vw; &:hover{height:6vh; background-color:#171515; border-radius:10px;border-color:black;};`
+export const Icon4 = styled.img`margin:0.55vh 1.35vw 2.75vh 2.93vw; &:hover{height:6vh; background-color:#E1306C; border-radius:10px;border-color:black;};`
 
 
 export const Introduction = styled.div`

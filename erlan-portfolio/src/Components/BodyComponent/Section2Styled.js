@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Section2MainBox = styled.div`
 background-color:#4eaccf;
-height:55vh;`
+height:58vh;`
 
 export const TtitleBox = styled.div`
 display:flex;

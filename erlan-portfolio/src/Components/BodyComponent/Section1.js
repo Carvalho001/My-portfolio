@@ -8,7 +8,7 @@ export function Section1() {
             <MyPictureBox>
                 <img src={me} alt={'Minha foto'}></img>
             </MyPictureBox>
-            <AboutMeBox>
+            <AboutMeBox id= 'whoiam'>
                     <h1>Sobre mim</h1>
                     <p>Desenvolvedor Web, apaixonado por aprender. Estou sempre a buscar pelo crescimento e aprendizado, visando experiências que alavanquem minhas habilidades e tomadas de decisão conjuntas a uma equipe, sendo capaz de aprimorar a mim mesmo e todos ao meu redor.</p>
                 <SomeTechnologies>
@@ -17,7 +17,7 @@ export function Section1() {
                     <h4>CSS</h4>
                     <h4>Javascript</h4>
                 </SomeTechnologies>
-               <a href={'./CV-Erlan-Carvalho.pdf'} download> <CVButton>CV em PDF</CVButton></a>
+               <a href='CV Erlan Carvalho.pdf' download={'Erlan Currículo'}><CVButton>CV em PDF</CVButton></a>
             </AboutMeBox>
         </Section1MainBox>
     )

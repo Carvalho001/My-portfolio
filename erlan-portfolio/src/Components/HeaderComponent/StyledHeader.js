@@ -1,13 +1,12 @@
 import styled from 'styled-components';
-import headerImage from '../../assets/headerImage.png';
+import headerImg1 from '../../assets/headerImg1.jpg';
 
 export const MainHeader = styled.div`
   width: 100vw;
   height: 100vh;
   color:green;
-  background-size:350vh;
-  background-image:url(${headerImage});  
-  opacity:95%;
+  background-size:100vw;
+  background-image:url(${headerImg1});  
 `
 export const MyNameAndHeaderMenuBox = styled.div`
 display:flex;
@@ -22,31 +21,33 @@ h3{
 export const HeaderMenu = styled.div`
 display:flex;
 flex-direction:row;
+button{
+  background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+};
 ;`
 
 export const MenuItem1 = styled.p`
 padding-right:1.70vw;
-a{
-  color: #FFFFFF;
-  text-decoration:none;
-};`
+color:#FFFFFF;
+font-size:3.50vh;
+&:hover{color:blue;};
+`
 export const MenuItem2 = styled.p`
 padding-right:1.70vw ;
 color:#4eaccf;
-a{
-  color: #FFFFFF;
-
-  text-decoration:none;
-};`
+font-size:3.50vh;
+&:hover{color:blue;};
+`
 export const MenuItem3 = styled.p`
-    color: #FFFFFF;
-
 color:#4eaccf;
-a{
-  color: #FFFFFF;
-
-  text-decoration:none;
-};`
+font-size:3.50vh;
+&:hover{color:blue;};
+`
 
 export const IconsAndIntroduction = styled.div`
 display:grid;

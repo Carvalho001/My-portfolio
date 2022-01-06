@@ -10,7 +10,7 @@ margin-top:10vh;`
 
 export const MainFooter = styled.div`
  width: 100vw;
-  height: 40vh;
+  height: 45vh;
   background-color: #063447;`
 
 

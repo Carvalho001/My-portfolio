@@ -21,7 +21,7 @@ p{
 `
 
 export const Section1MainBox = styled.div`
-height:55vh;
+height:65vh;
 display:grid;
 grid-template-columns: 3fr 2fr;
 align-items:center;

@@ -8,7 +8,7 @@ import insta from '../../assets/insta.png';
 
 export function Footer() {
     return (
-        <TheFooter>
+        <TheFooter id='contacts'>
             <MainFooter>
                 <FooterTitle>
                     Contrate-me!

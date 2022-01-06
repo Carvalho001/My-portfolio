@@ -8,7 +8,7 @@ import { Section4Title, ProjectN1Box, ProjectN2Box, ProjectN3Box, ButtonBox } fr
 export function Section4() {
     return (
         <div>
-            <Section4Title>
+            <Section4Title  id='projects'>
                 <h3>Meus projetos</h3>
             </Section4Title>
             <ProjectN1Box>

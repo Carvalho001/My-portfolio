@@ -5,7 +5,10 @@ import whatsapp from '../../assets/whatsapp.png';
 import github from '../../assets/github.png';
 import insta from '../../assets/insta.png';
 
+
 export function Header() {
+
+
     return (
         <div>
 
@@ -13,9 +16,9 @@ export function Header() {
                 <MyNameAndHeaderMenuBox>
                     <h3>Erlan</h3>
                     <HeaderMenu>
-                        <a href={'#whoiam'}><MenuItem1 id={'whoiam'}>quem sou</MenuItem1></a>
-                        <a href={'#projects'}><MenuItem2 id={'projects'}>projetos</MenuItem2></a>
-                        <a href={'#contact'}><MenuItem3 id={'contact'}>contato</MenuItem3></a>
+                        <a href='#whoiam'> <button><MenuItem1>quem sou eu</MenuItem1></button></a>
+                        <a href='#projects'> <button ><MenuItem2>projetos</MenuItem2></button></a>
+                        <a href='#contacts'><button><MenuItem3 >contato</MenuItem3></button></a>
                     </HeaderMenu>
                 </MyNameAndHeaderMenuBox>
                 <IconsAndIntroduction>
@@ -30,7 +33,7 @@ export function Header() {
                             Eu Sou <br />Erlan Carvalho
                         </h1>
                         <h3>Desenvolvedor Web Full Stack                         </h3>
-                        <p>Apaixonado por aprender</p>
+                        <p>Movido pela vontade de aprender</p>
                     </Introduction>
                 </IconsAndIntroduction>
             </MainHeader>

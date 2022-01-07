@@ -16,7 +16,7 @@ export function Section3() {
                 </PackN1>
                 <PackN2>
                     <PackN2Title>
-                    <h3>Bacharelado Interdisciplinar em Ciência e tecnologia na UFBA</h3>
+                        <h3>Bacharelado Interdisciplinar em Ciência e tecnologia na UFBA</h3>
                     </PackN2Title>
                     <p>03/2019 - presente</p>
                     <p>Cuso superior que abrange a ciência e tecnologia além de incluir componentes multidisciplinares no currículo, garantindo o desenvolvimento técnico e interpessoal.</p>

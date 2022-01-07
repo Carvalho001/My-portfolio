@@ -1,5 +1,5 @@
 import React from 'react';
-import { Section2MainBox,TtitleBox,SkillsBox, FrontEndBox, BackEndBox} from './Section2Styled';
+import { Section2MainBox, TtitleBox, SkillsBox, FrontEndBox, BackEndBox } from './Section2Styled';
 
 
 export function Section2() {

@@ -17,7 +17,7 @@ export function Section1() {
                     <h4>CSS</h4>
                     <h4>Javascript</h4>
                 </SomeTechnologies>
-               <a href='CV Erlan Carvalho.pdf' download={'Erlan Currículo'}><CVButton>CV em PDF</CVButton></a>
+               <a href='https://drive.google.com/file/d/1T16Wv_1AE0ExWbfYbaUNuC0Kwle3RfE7/view?usp=sharing' rel="noreferrer" target={"_blank"}><CVButton>CV em PDF</CVButton></a>
             </AboutMeBox>
         </Section1MainBox>
     )
